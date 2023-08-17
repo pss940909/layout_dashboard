@@ -1,3 +1,39 @@
 .main {
   margin-left: 296px;
 }
+
+.extra-small {
+  font-size: 12px;
+}
+
+// 上方header
+.header {
+  .left {
+    h2 {
+      margin-right: 50px;
+    }
+    .btn.show,
+    .btn:focus {
+      border: 0;
+    }
+    .dropdown-toggle::after {
+      display: none;
+    }
+  }
+}
+
+// 下方dashboard
+.left-side-menu {
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .rounded-extra-sm {
+    border-radius: 2px;
+  }
+
+  .list-group-item.active {
+    background-color: $gray-100 !important;
+    border: 1px solid $gray-400;
+  }
+}
