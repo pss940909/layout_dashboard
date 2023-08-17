@@ -1,0 +1,34 @@
+.side-nav {
+  min-width: 296px;
+  min-height: 100vh;
+  background-color: $gray-100;
+
+  .nav-link.active,
+  .nav-link:hover {
+    color: $success !important;
+  }
+
+  .nav-link.active::before {
+    display: block;
+  }
+
+  .nav-link::before {
+    content: "";
+    height: 100%;
+    width: 4px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: $success;
+    display: none;
+  }
+
+  // 最下方帳號
+  .account {
+    img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+    }
+  }
+}
