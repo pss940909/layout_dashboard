@@ -11,3 +11,13 @@
   background-color: $success !important;
   color: white !important;
 }
+
+.pagination {
+  border-radius: 0 !important;
+}
+
+.main {
+  .rounded-extra-sm {
+    border-radius: 2px !important;
+  }
+}
