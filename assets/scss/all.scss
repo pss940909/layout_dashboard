@@ -1,8 +1,13 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import "./utils/variables";
+@import "../../node_modules/bootstrap";
 
+// layout
 @import "./layout/side-nav.scss";
 
-@import "./pages/index.scss";
+// components
+@import "./components/new-admin";
 
-@import "../../node_modules/bootstrap";
+// pages
+@import "./pages/index.scss";
+@import "./pages/admin.scss";

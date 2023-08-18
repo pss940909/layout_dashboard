@@ -1,0 +1,13 @@
+.table {
+  margin-bottom: 64px !important;
+}
+
+.page-item {
+  border-radius: 2px !important;
+}
+
+.page-link:hover,
+.page-link.active {
+  background-color: $success !important;
+  color: white !important;
+}
