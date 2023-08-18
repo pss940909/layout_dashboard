@@ -6,6 +6,10 @@
   font-size: 12px;
 }
 
+.rounded-extra-sm {
+  border-radius: 2px !important;
+}
+
 // 上方header
 .header {
   .left {
@@ -23,17 +27,35 @@
 }
 
 // 下方dashboard
-.left-side-menu {
+.dashboard {
+  // dropdown menu
   .dropdown-toggle::after {
     display: none;
   }
-
-  .rounded-extra-sm {
-    border-radius: 2px;
+  .btn.show,
+  button:focus {
+    outline: 0;
+    border: 0;
   }
-
+}
+// 左側選單
+.left-side-menu {
   .list-group-item.active {
     background-color: $gray-100 !important;
+    border: 1px solid $gray-400;
+  }
+}
+
+// 右側dashboard主要內容
+.dashboard-main {
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .btn {
     border: 1px solid $gray-400;
   }
 }
