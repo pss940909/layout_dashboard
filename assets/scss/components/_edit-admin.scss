@@ -1,3 +1,11 @@
 .text-gray-400 {
   color: $gray-400 !important;
 }
+
+.edit-admin {
+  max-width: 480px !important;
+
+  .form-check-input {
+    border-width: 3px !important;
+  }
+}
