@@ -11,6 +11,10 @@
     }
   }
 
+  .close-btn {
+    cursor: pointer;
+  }
+
   .accordion-button::after {
     display: none;
   }
