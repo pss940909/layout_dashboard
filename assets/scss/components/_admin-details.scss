@@ -10,6 +10,22 @@
       object-position: center center;
     }
   }
+
+  .accordion-button::after {
+    display: none;
+  }
+  .accordion-button {
+    span {
+      transform: rotate(0deg);
+      transition: 0.5s;
+    }
+  }
+  .accordion-button.collapsed {
+    span {
+      transform: rotate(180deg);
+      transition: 0.5s;
+    }
+  }
   .w-auto {
     width: auto !important;
   }
