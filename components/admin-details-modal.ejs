@@ -1,0 +1,70 @@
+<!-- Admin Details Modal -->
+<div
+  class="modal fade"
+  id="seeMore"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog admin-details modal-dialog-centered">
+    <div class="modal-content rounded-extra-sm">
+      <div class="modal-body p-8">
+        <div class="d-flex position-relative">
+          <div class="admin-img rounded-extra-sm me-6">
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/emir.jpeg?raw=true"
+              alt="Emir"
+              class="rounded-extra-sm"
+            />
+          </div>
+          <div class="flex-grow-1">
+            <span class="material-icons-outlined position-absolute top-0 end-0">
+              close
+            </span>
+            <p class="mb-2">#1</p>
+            <p class="mb-0">Admin</p>
+            <p class="fw-bold fs-4 mb-2">Emir Wicks</p>
+            <p class="mb-4 text-muted small">emir.wicks@mail.com</p>
+            <div class="accordion w-100" id="accordionExample">
+              <div class="accordion-item border-0">
+                <div
+                  class="accordion-header d-flex justify-content-between align-items-center"
+                  id="headingThree"
+                >
+                  <span class="bg-light small py-1 px-2">Verified</span>
+                  <button
+                    class="accordion-button collapsed p-0 w-auto"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  ></button>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse pt-8"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-end p-0">
+                    <div
+                      class="btn btn-outline-danger rounded-extra-sm py-2 px-5 fw-bold"
+                    >
+                      Deactivate
+                    </div>
+                    <div
+                      class="btn btn-success rounded-extra-sm ms-4 py-2 px-5 fw-bold"
+                    >
+                      Edit
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
