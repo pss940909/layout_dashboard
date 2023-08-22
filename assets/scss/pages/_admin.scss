@@ -2,6 +2,20 @@
   margin-bottom: 64px !important;
 }
 
+.pagination li:first-child {
+  a {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+}
+
+.pagination li:last-child {
+  a {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+}
+
 .page-item {
   border-radius: 2px !important;
 }
@@ -10,10 +24,6 @@
 .page-link.active {
   background-color: $success !important;
   color: white !important;
-}
-
-.pagination {
-  border-radius: 0 !important;
 }
 
 .main {
